@@ -24,7 +24,7 @@ body{
   background: var(--bg);
 }
 
-/* ===== Layout ===== */
+
 .profile{
   min-height: 100%;
   display: grid;
@@ -44,7 +44,7 @@ body{
   background: linear-gradient(180deg, #bde2f0, #f9fafb);
 }
 
-/* ===== Avatar ===== */
+
 .avatar-wrap{
   display: inline-grid;
   place-items: center;
@@ -132,6 +132,7 @@ body{
   font-size: 0.92rem;
   margin-top: 8px;
 }
+
 
 
 
