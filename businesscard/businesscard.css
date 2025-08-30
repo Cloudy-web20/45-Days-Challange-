@@ -4,9 +4,9 @@
   --card: #92cce0;
   --text: #1e293b;
   --muted: #64748b;
-  --brand: #0ea5e9;        /* Sky Blue */
-  --brand-700: #0284c7;    /* Darker Blue */
-  --accent: #0284c7;       /* Amber Yellow */
+  --brand: #0ea5e9;       
+  --brand-700: #0284c7;   
+  --accent: #0284c7;       
   --ring: rgba(14, 165, 233, 0.35);
   --radius: 18px;
   --shadow: 0 8px 28px rgba(2, 8, 23, 0.1);
@@ -133,6 +133,7 @@ body{
   font-size: 0.92rem;
   margin-top: 8px;
 }
+
 
 
 
