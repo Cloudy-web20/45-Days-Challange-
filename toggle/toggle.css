@@ -1,0 +1,137 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #c1a4ed, #e0f7fa); /* pastel lavender + teal */
+  transition: background 0.4s ease-in-out;
+}
+
+.card {
+  background: linear-gradient(145deg, #f3e5f5, #e9d0ee); /* lavender gradient */
+  color: #2a2a2a;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid rgba(155, 93, 229, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+.card h2 {
+  margin: 10px 0 5px;
+  font-size: 1.8rem;
+  color: #4b2e83; /* deep purple */
+}
+
+.card p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #5c5470;
+}
+
+.tagline {
+  font-style: italic;
+  color: #6a4c93;
+  margin-bottom: 20px;
+}
+
+
+.links {
+  margin: 15px 0;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 18px;
+  margin: 5px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.linkedin {
+  background: #6c63ff;
+  color: #fff;
+}
+
+.linkedin:hover {
+  background: #5548d4;
+}
+
+.github {
+  background: #9b5de5;
+  color: #fff;
+}
+
+.github:hover {
+  background: #7a3cc7;
+}
+
+
+#toggle-btn {
+  margin-top: 15px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 20px;
+  background: #6c63ff;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#toggle-btn:hover {
+  background: #5548d4;
+  transform: scale(1.05);
+}
+
+
+.dark-mode {
+  background: linear-gradient(135deg, #1e1e2f, #12121c); /* dark indigo */
+  color: #f5f5f5;
+}
+
+.dark-mode .card {
+  background: linear-gradient(145deg, #2a2a40, #1e1e2f); /* deep lavender dark */
+  color: #f5f5f5;
+  box-shadow: 0 6px 18px rgba(255, 255, 255, 0.05);
+  border: 1px solid #3a3a55;
+}
+
+.dark-mode .card h2 {
+  color: #e0d4ff;
+}
+
+.dark-mode .card p {
+  color: #c8b6ff;
+}
+
+.dark-mode .btn.linkedin {
+  background: #9a67ea;
+}
+
+.dark-mode .btn.github {
+  background: #6c63ff;
+}
+
+.dark-mode #toggle-btn {
+  background: #bb86fc;
+  color: #121212;
+}
+
+.dark-mode #toggle-btn:hover {
+  background: #9a67ea;
+}
+
+
