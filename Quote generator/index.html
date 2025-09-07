@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="quote.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quote-box">
+            <h1>Quotes To Keep You Motivated </h1>
+            <h4>Click the button and get motivated</h4>
+            
+            <div id="quote-call" data-aos="fade-up"></div>
+
+            
+            <div class="btn-group">
+                <button id="quote-gen" onclick="quote_api()">Generate</button>
+                <button id="save-btn" onclick="saveFavorite()">Save Favorite</button>
+                <button id="theme-btn" onclick="toggleTheme()">Change Theme</button>
+            </div>
+
+         
+            <br>
+            
+            <h3>My Favorites</h3>
+            <ul id="favorites-list"></ul>
+        </div>
+    </div>
+    <div class="btn-group">
+    <button id="quote-gen" onclick="quote_api()">Generate</button>
+    <button onclick="saveFavorite()">Save Favorite</button>
+    <button onclick="toggleTheme()">Change Theme</button>
+</div>
+<ul id="favorites-list"></ul>
+
+
+  
+    <script src="quote.js"></script>
+</body>
+</html>
+
+
+
+
