@@ -1,0 +1,25 @@
+### Get all projects
+GET http://localhost:3000/api/projects
+Content-Type: application/json
+
+### Create a new project
+POST http://localhost:3000/api/projects
+Content-Type: application/json
+
+{
+  "title": "My Project",
+  "description": "Project description",
+  "technologies": ["Node.js"],
+  "featured": false
+}
+
+### Update a project
+PUT http://localhost:3000/api/projects/PASTE_REAL_ID_HERE
+Content-Type: application/json
+
+{
+  "title": "Updated Title"
+}
+
+### Delete a project
+DELETE http://localhost:3000/api/projects/PASTE_REAL_ID_HERE
